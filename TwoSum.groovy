@@ -8,9 +8,6 @@
  *  result is true because the pair (1, 4) sums to 5.
  */
 
-import java.util.stream.*;
-import static java.util.stream.Collectors.toList;
-
 class TwoSum {
   String twoSum(arrayInt, targetInt) {
     def result = false
